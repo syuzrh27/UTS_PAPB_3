@@ -43,9 +43,6 @@ class DetailActivity : AppCompatActivity() {
 
                 intentToPayment.putExtra(EXTRA_TITLE,title)
 
-                // Mengirim data tambahan ke PaymentActivity jika diperlukan
-                // Contoh: intentToPayment.putExtra("KEY", "VALUE")
-
                 startActivity(intentToPayment)
             }
 
