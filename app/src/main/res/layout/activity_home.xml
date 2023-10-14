@@ -96,7 +96,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/montserrat_semibold"
-                        android:text="Behind Her Eyes"
+                        android:text="The Conjuring"
                         android:textSize="17dp"
                         android:padding="5dp"/>
 
@@ -127,7 +127,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/montserrat_semibold"
-                        android:text="Ratu ilmu Hitam"
+                        android:text="A Nightmare on Elm Street"
                         android:textSize="17dp"
                         android:padding="5dp"/>
 
@@ -167,7 +167,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/montserrat_semibold"
-                        android:text="Dilan 1990"
+                        android:text="Get Out"
                         android:textSize="17dp"
                         android:padding="5dp"/>
 
@@ -198,7 +198,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/montserrat_semibold"
-                        android:text="Dilan 1991"
+                        android:text="Psycho"
                         android:textSize="17dp"
                         android:padding="5dp"/>
 
@@ -238,7 +238,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/montserrat_semibold"
-                        android:text="Rencana Besar"
+                        android:text="The Shining"
                         android:textSize="17dp"
                         android:padding="5dp"/>
 
@@ -269,7 +269,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/montserrat_semibold"
-                        android:text="The Doll 2"
+                        android:text="The Exorcist"
                         android:textSize="17dp"
                         android:padding="5dp"/>
 

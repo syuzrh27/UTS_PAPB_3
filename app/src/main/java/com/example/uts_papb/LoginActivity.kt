@@ -12,24 +12,22 @@ class LoginActivity : AppCompatActivity() {
     }
 
     private lateinit var binding: ActivityLoginBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityLoginBinding.inflate(layoutInflater)
-
         setContentView(binding.root)
 
+        val intentToHome = Intent(this@LoginActivity, HomeActivity::class.java)
 
-        val intent = Intent(this@LoginActivity, HomeActivity::class.java)
+        with(binding) {
+            started.setOnClickListener {
+                val usernameTxt = username.text.toString()
 
-        with(binding){
-            started.setOnClickListener{
-                val usernameTxt = binding.username.text.toString()
+                intentToHome.putExtra(EXTRA_USERNAME, usernameTxt)
 
-                intent.putExtra(EXTRA_USERNAME, usernameTxt)
-
-                startActivity(intent)
+                startActivity(intentToHome)
             }
         }
-
-}
+    }
 }

@@ -3,12 +3,11 @@ package com.example.uts_papb
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.uts_papb.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
+class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_splash)
 
         // Simulate a delay (e.g., 2000 milliseconds) using a handler
         val splashDuration = 2000L
