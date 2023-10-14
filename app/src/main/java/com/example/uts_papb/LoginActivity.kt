@@ -15,11 +15,21 @@ class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityLoginBinding.inflate(layoutInflater)
+
         setContentView(binding.root)
 
-        binding.started.setOnClickListener {
-            val intent = Intent(this@LoginActivity, HomeActivity::class.java)
-            startActivity(intent)
-            intent.putExtra(EXTRA_USERNAME, binding.username.text.toString())
-    }
-}}
+
+        val intent = Intent(this@LoginActivity, HomeActivity::class.java)
+
+        with(binding){
+            started.setOnClickListener{
+                val usernameTxt = binding.username.text.toString()
+
+                intent.putExtra(EXTRA_USERNAME, usernameTxt)
+
+                startActivity(intent)
+            }
+        }
+
+}
+}
